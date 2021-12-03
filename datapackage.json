@@ -1,0 +1,14 @@
+{
+    "name": "ddf--owid--covid_19",
+    "author": "Gapminder",
+    "description": "Data on COVID-19 (coronavirus) by Our World in Data",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "CC-BY-4.0",
+    "title": "Data on COVID-19 (coronavirus) by Our World in Data",
+    "version": "0.0.1",
+    "resources": []
+}
