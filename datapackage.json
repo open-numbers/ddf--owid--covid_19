@@ -1,14 +1,2098 @@
 {
     "name": "ddf--owid--covid_19",
-    "author": "Gapminder",
-    "description": "Data on COVID-19 (coronavirus) by Our World in Data",
     "language": {
         "name": "English",
         "id": "en"
     },
-    "translations": [],
-    "license": "CC-BY-4.0",
     "title": "Data on COVID-19 (coronavirus) by Our World in Data",
+    "description": "Data on COVID-19 (coronavirus) by Our World in Data",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "created": "2021-12-03T07:08:40.610656+00:00",
+    "translations": [],
     "version": "0.0.1",
-    "resources": []
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "source"
+                    },
+                    {
+                        "name": "category"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--datapoints--aged_65_older--by--location--date",
+            "path": "ddf--datapoints--aged_65_older--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "aged_65_older"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--aged_70_older--by--location--date",
+            "path": "ddf--datapoints--aged_70_older--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "aged_70_older"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cardiovasc_death_rate--by--location--date",
+            "path": "ddf--datapoints--cardiovasc_death_rate--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "cardiovasc_death_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--diabetes_prevalence--by--location--date",
+            "path": "ddf--datapoints--diabetes_prevalence--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "diabetes_prevalence"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--excess_mortality--by--location--date",
+            "path": "ddf--datapoints--excess_mortality--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "excess_mortality"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--excess_mortality_cumulative--by--location--date",
+            "path": "ddf--datapoints--excess_mortality_cumulative--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "excess_mortality_cumulative"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--excess_mortality_cumulative_absolute--by--location--date",
+            "path": "ddf--datapoints--excess_mortality_cumulative_absolute--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "excess_mortality_cumulative_absolute"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--excess_mortality_cumulative_per_million--by--location--date",
+            "path": "ddf--datapoints--excess_mortality_cumulative_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "excess_mortality_cumulative_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--extreme_poverty--by--location--date",
+            "path": "ddf--datapoints--extreme_poverty--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "extreme_poverty"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--female_smokers--by--location--date",
+            "path": "ddf--datapoints--female_smokers--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "female_smokers"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gdp_per_capita--by--location--date",
+            "path": "ddf--datapoints--gdp_per_capita--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "gdp_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--handwashing_facilities--by--location--date",
+            "path": "ddf--datapoints--handwashing_facilities--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "handwashing_facilities"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hosp_patients--by--location--date",
+            "path": "ddf--datapoints--hosp_patients--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "hosp_patients"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hosp_patients_per_million--by--location--date",
+            "path": "ddf--datapoints--hosp_patients_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "hosp_patients_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--hospital_beds_per_thousand--by--location--date",
+            "path": "ddf--datapoints--hospital_beds_per_thousand--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "hospital_beds_per_thousand"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--human_development_index--by--location--date",
+            "path": "ddf--datapoints--human_development_index--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "human_development_index"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--icu_patients--by--location--date",
+            "path": "ddf--datapoints--icu_patients--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "icu_patients"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--icu_patients_per_million--by--location--date",
+            "path": "ddf--datapoints--icu_patients_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "icu_patients_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--life_expectancy--by--location--date",
+            "path": "ddf--datapoints--life_expectancy--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "life_expectancy"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--male_smokers--by--location--date",
+            "path": "ddf--datapoints--male_smokers--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "male_smokers"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--median_age--by--location--date",
+            "path": "ddf--datapoints--median_age--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "median_age"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_cases--by--location--date",
+            "path": "ddf--datapoints--new_cases--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_cases"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_cases_per_million--by--location--date",
+            "path": "ddf--datapoints--new_cases_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_cases_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_cases_smoothed--by--location--date",
+            "path": "ddf--datapoints--new_cases_smoothed--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_cases_smoothed"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_cases_smoothed_per_million--by--location--date",
+            "path": "ddf--datapoints--new_cases_smoothed_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_cases_smoothed_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_deaths--by--location--date",
+            "path": "ddf--datapoints--new_deaths--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_deaths"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_deaths_per_million--by--location--date",
+            "path": "ddf--datapoints--new_deaths_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_deaths_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_deaths_smoothed--by--location--date",
+            "path": "ddf--datapoints--new_deaths_smoothed--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_deaths_smoothed"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_deaths_smoothed_per_million--by--location--date",
+            "path": "ddf--datapoints--new_deaths_smoothed_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_deaths_smoothed_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_people_vaccinated_smoothed--by--location--date",
+            "path": "ddf--datapoints--new_people_vaccinated_smoothed--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_people_vaccinated_smoothed"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_people_vaccinated_smoothed_per_hundred--by--location--date",
+            "path": "ddf--datapoints--new_people_vaccinated_smoothed_per_hundred--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_people_vaccinated_smoothed_per_hundred"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_tests--by--location--date",
+            "path": "ddf--datapoints--new_tests--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_tests"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_tests_per_thousand--by--location--date",
+            "path": "ddf--datapoints--new_tests_per_thousand--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_tests_per_thousand"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_tests_smoothed--by--location--date",
+            "path": "ddf--datapoints--new_tests_smoothed--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_tests_smoothed"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_tests_smoothed_per_thousand--by--location--date",
+            "path": "ddf--datapoints--new_tests_smoothed_per_thousand--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_tests_smoothed_per_thousand"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_vaccinations--by--location--date",
+            "path": "ddf--datapoints--new_vaccinations--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_vaccinations"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_vaccinations_smoothed--by--location--date",
+            "path": "ddf--datapoints--new_vaccinations_smoothed--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_vaccinations_smoothed"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--new_vaccinations_smoothed_per_million--by--location--date",
+            "path": "ddf--datapoints--new_vaccinations_smoothed_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "new_vaccinations_smoothed_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--people_fully_vaccinated--by--location--date",
+            "path": "ddf--datapoints--people_fully_vaccinated--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "people_fully_vaccinated"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--people_fully_vaccinated_per_hundred--by--location--date",
+            "path": "ddf--datapoints--people_fully_vaccinated_per_hundred--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "people_fully_vaccinated_per_hundred"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--people_vaccinated--by--location--date",
+            "path": "ddf--datapoints--people_vaccinated--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "people_vaccinated"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--people_vaccinated_per_hundred--by--location--date",
+            "path": "ddf--datapoints--people_vaccinated_per_hundred--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "people_vaccinated_per_hundred"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--population--by--location--date",
+            "path": "ddf--datapoints--population--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "population"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--population_density--by--location--date",
+            "path": "ddf--datapoints--population_density--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "population_density"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--positive_rate--by--location--date",
+            "path": "ddf--datapoints--positive_rate--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "positive_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--reproduction_rate--by--location--date",
+            "path": "ddf--datapoints--reproduction_rate--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "reproduction_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--stringency_index--by--location--date",
+            "path": "ddf--datapoints--stringency_index--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "stringency_index"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tests_per_case--by--location--date",
+            "path": "ddf--datapoints--tests_per_case--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "tests_per_case"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tests_units--by--location--date",
+            "path": "ddf--datapoints--tests_units--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "tests_units"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_boosters--by--location--date",
+            "path": "ddf--datapoints--total_boosters--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_boosters"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_boosters_per_hundred--by--location--date",
+            "path": "ddf--datapoints--total_boosters_per_hundred--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_boosters_per_hundred"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_cases--by--location--date",
+            "path": "ddf--datapoints--total_cases--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_cases"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_cases_per_million--by--location--date",
+            "path": "ddf--datapoints--total_cases_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_cases_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_deaths--by--location--date",
+            "path": "ddf--datapoints--total_deaths--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_deaths"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_deaths_per_million--by--location--date",
+            "path": "ddf--datapoints--total_deaths_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_deaths_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_tests--by--location--date",
+            "path": "ddf--datapoints--total_tests--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_tests"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_tests_per_thousand--by--location--date",
+            "path": "ddf--datapoints--total_tests_per_thousand--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_tests_per_thousand"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_vaccinations--by--location--date",
+            "path": "ddf--datapoints--total_vaccinations--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_vaccinations"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_vaccinations_per_hundred--by--location--date",
+            "path": "ddf--datapoints--total_vaccinations_per_hundred--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "total_vaccinations_per_hundred"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--weekly_hosp_admissions--by--location--date",
+            "path": "ddf--datapoints--weekly_hosp_admissions--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "weekly_hosp_admissions"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--weekly_hosp_admissions_per_million--by--location--date",
+            "path": "ddf--datapoints--weekly_hosp_admissions_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "weekly_hosp_admissions_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--weekly_icu_admissions--by--location--date",
+            "path": "ddf--datapoints--weekly_icu_admissions--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "weekly_icu_admissions"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--weekly_icu_admissions_per_million--by--location--date",
+            "path": "ddf--datapoints--weekly_icu_admissions_per_million--by--location--date.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "date"
+                    },
+                    {
+                        "name": "weekly_icu_admissions_per_million"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "date"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--location",
+            "path": "ddf--entities--location.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "iso_code"
+                    },
+                    {
+                        "name": "continent"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "location"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "category",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "description",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "source",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "continent",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "iso_code",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "aged_65_older",
+                "resources": [
+                    "ddf--datapoints--aged_65_older--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "aged_70_older",
+                "resources": [
+                    "ddf--datapoints--aged_70_older--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "cardiovasc_death_rate",
+                "resources": [
+                    "ddf--datapoints--cardiovasc_death_rate--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "diabetes_prevalence",
+                "resources": [
+                    "ddf--datapoints--diabetes_prevalence--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "excess_mortality",
+                "resources": [
+                    "ddf--datapoints--excess_mortality--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "excess_mortality_cumulative",
+                "resources": [
+                    "ddf--datapoints--excess_mortality_cumulative--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "excess_mortality_cumulative_absolute",
+                "resources": [
+                    "ddf--datapoints--excess_mortality_cumulative_absolute--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "excess_mortality_cumulative_per_million",
+                "resources": [
+                    "ddf--datapoints--excess_mortality_cumulative_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "extreme_poverty",
+                "resources": [
+                    "ddf--datapoints--extreme_poverty--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "female_smokers",
+                "resources": [
+                    "ddf--datapoints--female_smokers--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "gdp_per_capita",
+                "resources": [
+                    "ddf--datapoints--gdp_per_capita--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "handwashing_facilities",
+                "resources": [
+                    "ddf--datapoints--handwashing_facilities--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "hosp_patients",
+                "resources": [
+                    "ddf--datapoints--hosp_patients--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "hosp_patients_per_million",
+                "resources": [
+                    "ddf--datapoints--hosp_patients_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "hospital_beds_per_thousand",
+                "resources": [
+                    "ddf--datapoints--hospital_beds_per_thousand--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "human_development_index",
+                "resources": [
+                    "ddf--datapoints--human_development_index--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "icu_patients",
+                "resources": [
+                    "ddf--datapoints--icu_patients--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "icu_patients_per_million",
+                "resources": [
+                    "ddf--datapoints--icu_patients_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "life_expectancy",
+                "resources": [
+                    "ddf--datapoints--life_expectancy--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "male_smokers",
+                "resources": [
+                    "ddf--datapoints--male_smokers--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "median_age",
+                "resources": [
+                    "ddf--datapoints--median_age--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_cases",
+                "resources": [
+                    "ddf--datapoints--new_cases--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_cases_per_million",
+                "resources": [
+                    "ddf--datapoints--new_cases_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_cases_smoothed",
+                "resources": [
+                    "ddf--datapoints--new_cases_smoothed--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_cases_smoothed_per_million",
+                "resources": [
+                    "ddf--datapoints--new_cases_smoothed_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_deaths",
+                "resources": [
+                    "ddf--datapoints--new_deaths--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_deaths_per_million",
+                "resources": [
+                    "ddf--datapoints--new_deaths_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_deaths_smoothed",
+                "resources": [
+                    "ddf--datapoints--new_deaths_smoothed--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_deaths_smoothed_per_million",
+                "resources": [
+                    "ddf--datapoints--new_deaths_smoothed_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_people_vaccinated_smoothed",
+                "resources": [
+                    "ddf--datapoints--new_people_vaccinated_smoothed--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_people_vaccinated_smoothed_per_hundred",
+                "resources": [
+                    "ddf--datapoints--new_people_vaccinated_smoothed_per_hundred--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_tests",
+                "resources": [
+                    "ddf--datapoints--new_tests--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_tests_per_thousand",
+                "resources": [
+                    "ddf--datapoints--new_tests_per_thousand--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_tests_smoothed",
+                "resources": [
+                    "ddf--datapoints--new_tests_smoothed--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_tests_smoothed_per_thousand",
+                "resources": [
+                    "ddf--datapoints--new_tests_smoothed_per_thousand--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_vaccinations",
+                "resources": [
+                    "ddf--datapoints--new_vaccinations--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_vaccinations_smoothed",
+                "resources": [
+                    "ddf--datapoints--new_vaccinations_smoothed--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "new_vaccinations_smoothed_per_million",
+                "resources": [
+                    "ddf--datapoints--new_vaccinations_smoothed_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "people_fully_vaccinated",
+                "resources": [
+                    "ddf--datapoints--people_fully_vaccinated--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "people_fully_vaccinated_per_hundred",
+                "resources": [
+                    "ddf--datapoints--people_fully_vaccinated_per_hundred--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "people_vaccinated",
+                "resources": [
+                    "ddf--datapoints--people_vaccinated--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "people_vaccinated_per_hundred",
+                "resources": [
+                    "ddf--datapoints--people_vaccinated_per_hundred--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "population",
+                "resources": [
+                    "ddf--datapoints--population--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "population_density",
+                "resources": [
+                    "ddf--datapoints--population_density--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "positive_rate",
+                "resources": [
+                    "ddf--datapoints--positive_rate--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "reproduction_rate",
+                "resources": [
+                    "ddf--datapoints--reproduction_rate--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "stringency_index",
+                "resources": [
+                    "ddf--datapoints--stringency_index--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "tests_per_case",
+                "resources": [
+                    "ddf--datapoints--tests_per_case--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "tests_units",
+                "resources": [
+                    "ddf--datapoints--tests_units--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_boosters",
+                "resources": [
+                    "ddf--datapoints--total_boosters--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_boosters_per_hundred",
+                "resources": [
+                    "ddf--datapoints--total_boosters_per_hundred--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_cases",
+                "resources": [
+                    "ddf--datapoints--total_cases--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_cases_per_million",
+                "resources": [
+                    "ddf--datapoints--total_cases_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_deaths",
+                "resources": [
+                    "ddf--datapoints--total_deaths--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_deaths_per_million",
+                "resources": [
+                    "ddf--datapoints--total_deaths_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_tests",
+                "resources": [
+                    "ddf--datapoints--total_tests--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_tests_per_thousand",
+                "resources": [
+                    "ddf--datapoints--total_tests_per_thousand--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_vaccinations",
+                "resources": [
+                    "ddf--datapoints--total_vaccinations--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "total_vaccinations_per_hundred",
+                "resources": [
+                    "ddf--datapoints--total_vaccinations_per_hundred--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "weekly_hosp_admissions",
+                "resources": [
+                    "ddf--datapoints--weekly_hosp_admissions--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "weekly_hosp_admissions_per_million",
+                "resources": [
+                    "ddf--datapoints--weekly_hosp_admissions_per_million--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "weekly_icu_admissions",
+                "resources": [
+                    "ddf--datapoints--weekly_icu_admissions--by--location--date"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "date",
+                    "location"
+                ],
+                "value": "weekly_icu_admissions_per_million",
+                "resources": [
+                    "ddf--datapoints--weekly_icu_admissions_per_million--by--location--date"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
 }

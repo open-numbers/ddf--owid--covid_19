@@ -1,0 +1,238 @@
+location,iso_code,continent,name
+abw,ABW,North America,Aruba
+afg,AFG,Asia,Afghanistan
+ago,AGO,Africa,Angola
+aia,AIA,North America,Anguilla
+alb,ALB,Europe,Albania
+and,AND,Europe,Andorra
+are,ARE,Asia,United Arab Emirates
+arg,ARG,South America,Argentina
+arm,ARM,Asia,Armenia
+atg,ATG,North America,Antigua and Barbuda
+aus,AUS,Oceania,Australia
+aut,AUT,Europe,Austria
+aze,AZE,Asia,Azerbaijan
+bdi,BDI,Africa,Burundi
+bel,BEL,Europe,Belgium
+ben,BEN,Africa,Benin
+bes,BES,North America,Bonaire Sint Eustatius and Saba
+bfa,BFA,Africa,Burkina Faso
+bgd,BGD,Asia,Bangladesh
+bgr,BGR,Europe,Bulgaria
+bhr,BHR,Asia,Bahrain
+bhs,BHS,North America,Bahamas
+bih,BIH,Europe,Bosnia and Herzegovina
+blr,BLR,Europe,Belarus
+blz,BLZ,North America,Belize
+bmu,BMU,North America,Bermuda
+bol,BOL,South America,Bolivia
+bra,BRA,South America,Brazil
+brb,BRB,North America,Barbados
+brn,BRN,Asia,Brunei
+btn,BTN,Asia,Bhutan
+bwa,BWA,Africa,Botswana
+caf,CAF,Africa,Central African Republic
+can,CAN,North America,Canada
+che,CHE,Europe,Switzerland
+chl,CHL,South America,Chile
+chn,CHN,Asia,China
+civ,CIV,Africa,Cote d'Ivoire
+cmr,CMR,Africa,Cameroon
+cod,COD,Africa,Democratic Republic of Congo
+cog,COG,Africa,Congo
+cok,COK,Oceania,Cook Islands
+col,COL,South America,Colombia
+com,COM,Africa,Comoros
+cpv,CPV,Africa,Cape Verde
+cri,CRI,North America,Costa Rica
+cub,CUB,North America,Cuba
+cuw,CUW,North America,Curacao
+cym,CYM,North America,Cayman Islands
+cyp,CYP,Europe,Cyprus
+cze,CZE,Europe,Czechia
+deu,DEU,Europe,Germany
+dji,DJI,Africa,Djibouti
+dma,DMA,North America,Dominica
+dnk,DNK,Europe,Denmark
+dom,DOM,North America,Dominican Republic
+dza,DZA,Africa,Algeria
+ecu,ECU,South America,Ecuador
+egy,EGY,Africa,Egypt
+eri,ERI,Africa,Eritrea
+esp,ESP,Europe,Spain
+est,EST,Europe,Estonia
+eth,ETH,Africa,Ethiopia
+fin,FIN,Europe,Finland
+fji,FJI,Oceania,Fiji
+flk,FLK,South America,Falkland Islands
+fra,FRA,Europe,France
+fro,FRO,Europe,Faeroe Islands
+fsm,FSM,Oceania,Micronesia (country)
+gab,GAB,Africa,Gabon
+gbr,GBR,Europe,United Kingdom
+geo,GEO,Asia,Georgia
+ggy,GGY,Europe,Guernsey
+gha,GHA,Africa,Ghana
+gib,GIB,Europe,Gibraltar
+gin,GIN,Africa,Guinea
+gmb,GMB,Africa,Gambia
+gnb,GNB,Africa,Guinea-Bissau
+gnq,GNQ,Africa,Equatorial Guinea
+grc,GRC,Europe,Greece
+grd,GRD,North America,Grenada
+grl,GRL,North America,Greenland
+gtm,GTM,North America,Guatemala
+guy,GUY,South America,Guyana
+hkg,HKG,Asia,Hong Kong
+hnd,HND,North America,Honduras
+hrv,HRV,Europe,Croatia
+hti,HTI,North America,Haiti
+hun,HUN,Europe,Hungary
+idn,IDN,Asia,Indonesia
+imn,IMN,Europe,Isle of Man
+ind,IND,Asia,India
+irl,IRL,Europe,Ireland
+irn,IRN,Asia,Iran
+irq,IRQ,Asia,Iraq
+isl,ISL,Europe,Iceland
+isr,ISR,Asia,Israel
+ita,ITA,Europe,Italy
+jam,JAM,North America,Jamaica
+jey,JEY,Europe,Jersey
+jor,JOR,Asia,Jordan
+jpn,JPN,Asia,Japan
+kaz,KAZ,Asia,Kazakhstan
+ken,KEN,Africa,Kenya
+kgz,KGZ,Asia,Kyrgyzstan
+khm,KHM,Asia,Cambodia
+kir,KIR,Oceania,Kiribati
+kna,KNA,North America,Saint Kitts and Nevis
+kor,KOR,Asia,South Korea
+kwt,KWT,Asia,Kuwait
+lao,LAO,Asia,Laos
+lbn,LBN,Asia,Lebanon
+lbr,LBR,Africa,Liberia
+lby,LBY,Africa,Libya
+lca,LCA,North America,Saint Lucia
+lie,LIE,Europe,Liechtenstein
+lka,LKA,Asia,Sri Lanka
+lso,LSO,Africa,Lesotho
+ltu,LTU,Europe,Lithuania
+lux,LUX,Europe,Luxembourg
+lva,LVA,Europe,Latvia
+mac,MAC,Asia,Macao
+mar,MAR,Africa,Morocco
+mco,MCO,Europe,Monaco
+mda,MDA,Europe,Moldova
+mdg,MDG,Africa,Madagascar
+mdv,MDV,Asia,Maldives
+mex,MEX,North America,Mexico
+mhl,MHL,Oceania,Marshall Islands
+mkd,MKD,Europe,North Macedonia
+mli,MLI,Africa,Mali
+mlt,MLT,Europe,Malta
+mmr,MMR,Asia,Myanmar
+mne,MNE,Europe,Montenegro
+mng,MNG,Asia,Mongolia
+moz,MOZ,Africa,Mozambique
+mrt,MRT,Africa,Mauritania
+msr,MSR,North America,Montserrat
+mus,MUS,Africa,Mauritius
+mwi,MWI,Africa,Malawi
+mys,MYS,Asia,Malaysia
+nam,NAM,Africa,Namibia
+ncl,NCL,Oceania,New Caledonia
+ner,NER,Africa,Niger
+nga,NGA,Africa,Nigeria
+nic,NIC,North America,Nicaragua
+niu,NIU,Oceania,Niue
+nld,NLD,Europe,Netherlands
+nor,NOR,Europe,Norway
+npl,NPL,Asia,Nepal
+nru,NRU,Oceania,Nauru
+nzl,NZL,Oceania,New Zealand
+omn,OMN,Asia,Oman
+owid_afr,OWID_AFR,,Africa
+owid_asi,OWID_ASI,,Asia
+owid_cyn,OWID_CYN,Asia,Northern Cyprus
+owid_eun,OWID_EUN,,European Union
+owid_eur,OWID_EUR,,Europe
+owid_hic,OWID_HIC,,High income
+owid_int,OWID_INT,,International
+owid_kos,OWID_KOS,Europe,Kosovo
+owid_lic,OWID_LIC,,Low income
+owid_lmc,OWID_LMC,,Lower middle income
+owid_nam,OWID_NAM,,North America
+owid_oce,OWID_OCE,,Oceania
+owid_sam,OWID_SAM,,South America
+owid_umc,OWID_UMC,,Upper middle income
+owid_wrl,OWID_WRL,,World
+pak,PAK,Asia,Pakistan
+pan,PAN,North America,Panama
+pcn,PCN,Oceania,Pitcairn
+per,PER,South America,Peru
+phl,PHL,Asia,Philippines
+plw,PLW,Oceania,Palau
+png,PNG,Oceania,Papua New Guinea
+pol,POL,Europe,Poland
+prt,PRT,Europe,Portugal
+pry,PRY,South America,Paraguay
+pse,PSE,Asia,Palestine
+pyf,PYF,Oceania,French Polynesia
+qat,QAT,Asia,Qatar
+rou,ROU,Europe,Romania
+rus,RUS,Europe,Russia
+rwa,RWA,Africa,Rwanda
+sau,SAU,Asia,Saudi Arabia
+sdn,SDN,Africa,Sudan
+sen,SEN,Africa,Senegal
+sgp,SGP,Asia,Singapore
+shn,SHN,Africa,Saint Helena
+slb,SLB,Oceania,Solomon Islands
+sle,SLE,Africa,Sierra Leone
+slv,SLV,North America,El Salvador
+smr,SMR,Europe,San Marino
+som,SOM,Africa,Somalia
+srb,SRB,Europe,Serbia
+ssd,SSD,Africa,South Sudan
+stp,STP,Africa,Sao Tome and Principe
+sur,SUR,South America,Suriname
+svk,SVK,Europe,Slovakia
+svn,SVN,Europe,Slovenia
+swe,SWE,Europe,Sweden
+swz,SWZ,Africa,Eswatini
+sxm,SXM,North America,Sint Maarten (Dutch part)
+syc,SYC,Africa,Seychelles
+syr,SYR,Asia,Syria
+tca,TCA,North America,Turks and Caicos Islands
+tcd,TCD,Africa,Chad
+tgo,TGO,Africa,Togo
+tha,THA,Asia,Thailand
+tjk,TJK,Asia,Tajikistan
+tkl,TKL,Oceania,Tokelau
+tkm,TKM,Asia,Turkmenistan
+tls,TLS,Asia,Timor
+ton,TON,Oceania,Tonga
+tto,TTO,North America,Trinidad and Tobago
+tun,TUN,Africa,Tunisia
+tur,TUR,Asia,Turkey
+tuv,TUV,Oceania,Tuvalu
+twn,TWN,Asia,Taiwan
+tza,TZA,Africa,Tanzania
+uga,UGA,Africa,Uganda
+ukr,UKR,Europe,Ukraine
+ury,URY,South America,Uruguay
+usa,USA,North America,United States
+uzb,UZB,Asia,Uzbekistan
+vat,VAT,Europe,Vatican
+vct,VCT,North America,Saint Vincent and the Grenadines
+ven,VEN,South America,Venezuela
+vgb,VGB,North America,British Virgin Islands
+vnm,VNM,Asia,Vietnam
+vut,VUT,Oceania,Vanuatu
+wlf,WLF,Oceania,Wallis and Futuna
+wsm,WSM,Oceania,Samoa
+yem,YEM,Asia,Yemen
+zaf,ZAF,Africa,South Africa
+zmb,ZMB,Africa,Zambia
+zwe,ZWE,Africa,Zimbabwe
