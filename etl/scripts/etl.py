@@ -7,12 +7,9 @@ source_file = '../source/owid-covid-data.csv'
 codebook_file = '../source/owid-covid-codebook.csv'
 
 
-codebook = pd.read_csv('../source/owid-covid-codebook.csv')
-
-
 def main():
+    codebook = pd.read_csv('../source/owid-covid-codebook.csv')
     df = pd.read_csv(source_file)
-
     # location entity domain
     locations = df[['iso_code', 'continent', 'location']].copy()
     locations.columns = ['iso_code', 'continent', 'name']
