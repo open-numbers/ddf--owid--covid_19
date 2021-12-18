@@ -826,6 +826,13 @@ and,20211203,people tested
 and,20211204,people tested
 and,20211205,people tested
 and,20211206,people tested
+and,20211207,people tested
+and,20211208,people tested
+and,20211209,people tested
+and,20211210,people tested
+and,20211211,people tested
+and,20211212,people tested
+and,20211213,people tested
 atg,20210713,tests performed
 arg,20200101,tests performed
 arg,20200102,tests performed
@@ -1536,6 +1543,8 @@ arg,20211206,tests performed
 arg,20211207,tests performed
 arg,20211208,tests performed
 arg,20211209,tests performed
+arg,20211210,tests performed
+arg,20211211,tests performed
 arm,20200309,tests performed
 arm,20200310,tests performed
 arm,20200311,tests performed
@@ -2181,6 +2190,10 @@ arm,20211210,tests performed
 arm,20211211,tests performed
 arm,20211212,tests performed
 arm,20211213,tests performed
+arm,20211214,tests performed
+arm,20211215,tests performed
+arm,20211216,tests performed
+arm,20211217,tests performed
 aus,20200322,tests performed
 aus,20200323,tests performed
 aus,20200324,tests performed
@@ -2812,6 +2825,10 @@ aus,20211209,tests performed
 aus,20211210,tests performed
 aus,20211211,tests performed
 aus,20211212,tests performed
+aus,20211213,tests performed
+aus,20211214,tests performed
+aus,20211215,tests performed
+aus,20211216,tests performed
 aut,20200401,tests performed
 aut,20200402,tests performed
 aut,20200403,tests performed
@@ -3436,6 +3453,7 @@ aut,20211212,tests performed
 aut,20211213,tests performed
 aut,20211214,tests performed
 aut,20211215,tests performed
+aut,20211216,tests performed
 aze,20210428,tests performed
 aze,20210429,tests performed
 aze,20210430,tests performed
@@ -3667,6 +3685,8 @@ aze,20211211,tests performed
 aze,20211212,tests performed
 aze,20211213,tests performed
 aze,20211214,tests performed
+aze,20211215,tests performed
+aze,20211216,tests performed
 bhs,20210921,tests performed
 bhs,20210922,tests performed
 bhs,20210923,tests performed
@@ -3748,6 +3768,10 @@ bhs,20211207,tests performed
 bhs,20211208,tests performed
 bhs,20211209,tests performed
 bhs,20211210,tests performed
+bhs,20211211,tests performed
+bhs,20211212,tests performed
+bhs,20211213,tests performed
+bhs,20211214,tests performed
 bhr,20200305,units unclear
 bhr,20200306,units unclear
 bhr,20200307,units unclear
@@ -4399,6 +4423,8 @@ bhr,20211212,units unclear
 bhr,20211213,units unclear
 bhr,20211214,units unclear
 bhr,20211215,units unclear
+bhr,20211216,units unclear
+bhr,20211217,units unclear
 bgd,20200303,tests performed
 bgd,20200304,tests performed
 bgd,20200305,tests performed
@@ -5050,6 +5076,9 @@ bgd,20211210,tests performed
 bgd,20211211,tests performed
 bgd,20211212,tests performed
 bgd,20211213,tests performed
+bgd,20211214,tests performed
+bgd,20211215,tests performed
+bgd,20211216,tests performed
 blr,20200303,tests performed
 blr,20200304,tests performed
 blr,20200305,tests performed
@@ -5702,6 +5731,9 @@ blr,20211211,tests performed
 blr,20211212,tests performed
 blr,20211213,tests performed
 blr,20211214,tests performed
+blr,20211215,tests performed
+blr,20211216,tests performed
+blr,20211217,tests performed
 bel,20200301,tests performed
 bel,20200302,tests performed
 bel,20200303,tests performed
@@ -6355,6 +6387,8 @@ bel,20211210,tests performed
 bel,20211211,tests performed
 bel,20211212,tests performed
 bel,20211213,tests performed
+bel,20211214,tests performed
+bel,20211215,tests performed
 blz,20210519,tests performed
 blz,20210520,tests performed
 blz,20210521,tests performed
@@ -7098,6 +7132,9 @@ btn,20211210,samples tested
 btn,20211211,samples tested
 btn,20211212,samples tested
 btn,20211213,samples tested
+btn,20211214,samples tested
+btn,20211215,samples tested
+btn,20211216,samples tested
 bol,20200314,tests performed
 bol,20200315,tests performed
 bol,20200316,tests performed
@@ -7737,6 +7774,10 @@ bol,20211209,tests performed
 bol,20211210,tests performed
 bol,20211211,tests performed
 bol,20211212,tests performed
+bol,20211213,tests performed
+bol,20211214,tests performed
+bol,20211215,tests performed
+bol,20211216,tests performed
 bih,20200401,tests performed
 bih,20200402,tests performed
 bih,20200403,tests performed
@@ -8359,6 +8400,9 @@ bih,20211210,tests performed
 bih,20211211,tests performed
 bih,20211212,tests performed
 bih,20211213,tests performed
+bih,20211214,tests performed
+bih,20211215,tests performed
+bih,20211216,tests performed
 bwa,20200403,tests performed
 bwa,20200404,tests performed
 bwa,20200405,tests performed
@@ -8962,6 +9006,20 @@ bwa,20211123,tests performed
 bwa,20211124,tests performed
 bwa,20211125,tests performed
 bwa,20211126,tests performed
+bwa,20211127,tests performed
+bwa,20211128,tests performed
+bwa,20211129,tests performed
+bwa,20211130,tests performed
+bwa,20211201,tests performed
+bwa,20211202,tests performed
+bwa,20211203,tests performed
+bwa,20211204,tests performed
+bwa,20211205,tests performed
+bwa,20211206,tests performed
+bwa,20211207,tests performed
+bwa,20211208,tests performed
+bwa,20211209,tests performed
+bwa,20211210,tests performed
 bra,20200426,tests performed
 bra,20200427,tests performed
 bra,20200428,tests performed
@@ -10160,6 +10218,8 @@ bgr,20211211,tests performed
 bgr,20211212,tests performed
 bgr,20211213,tests performed
 bgr,20211214,tests performed
+bgr,20211215,tests performed
+bgr,20211216,tests performed
 khm,20210519,tests performed
 khm,20210520,tests performed
 khm,20210521,tests performed
@@ -10900,6 +10960,8 @@ can,20211211,tests performed
 can,20211212,tests performed
 can,20211213,tests performed
 can,20211214,tests performed
+can,20211215,tests performed
+can,20211216,tests performed
 cpv,20200508,tests performed
 cpv,20200509,tests performed
 cpv,20200510,tests performed
@@ -11483,6 +11545,10 @@ cpv,20211208,tests performed
 cpv,20211209,tests performed
 cpv,20211210,tests performed
 cpv,20211211,tests performed
+cpv,20211212,tests performed
+cpv,20211213,tests performed
+cpv,20211214,tests performed
+cpv,20211215,tests performed
 chl,20200325,tests performed
 chl,20200326,tests performed
 chl,20200327,tests performed
@@ -12114,6 +12180,7 @@ chl,20211212,tests performed
 chl,20211213,tests performed
 chl,20211214,tests performed
 chl,20211215,tests performed
+chl,20211216,tests performed
 chn,20200624,tests performed
 chn,20200806,tests performed
 col,20200602,tests performed
@@ -12677,6 +12744,8 @@ col,20211211,tests performed
 col,20211212,tests performed
 col,20211213,tests performed
 col,20211214,tests performed
+col,20211215,tests performed
+col,20211216,tests performed
 cri,20200306,people tested
 cri,20200307,people tested
 cri,20200308,people tested
@@ -13320,6 +13389,9 @@ cri,20211205,people tested
 cri,20211206,people tested
 cri,20211207,people tested
 cri,20211208,people tested
+cri,20211209,people tested
+cri,20211210,people tested
+cri,20211211,people tested
 civ,20200413,samples tested
 civ,20200414,samples tested
 civ,20200415,samples tested
@@ -13929,6 +14001,10 @@ civ,20211209,samples tested
 civ,20211210,samples tested
 civ,20211211,samples tested
 civ,20211212,samples tested
+civ,20211213,samples tested
+civ,20211214,samples tested
+civ,20211215,samples tested
+civ,20211216,samples tested
 hrv,20200303,people tested
 hrv,20200304,people tested
 hrv,20200305,people tested
@@ -14582,6 +14658,7 @@ hrv,20211212,people tested
 hrv,20211213,people tested
 hrv,20211214,people tested
 hrv,20211215,people tested
+hrv,20211216,people tested
 cub,20200322,tests performed
 cub,20200323,tests performed
 cub,20200324,tests performed
@@ -15679,6 +15756,8 @@ cyp,20211211,tests performed
 cyp,20211212,tests performed
 cyp,20211213,tests performed
 cyp,20211214,tests performed
+cyp,20211215,tests performed
+cyp,20211216,tests performed
 cze,20200601,tests performed
 cze,20200602,tests performed
 cze,20200603,tests performed
@@ -16241,6 +16320,8 @@ cze,20211211,tests performed
 cze,20211212,tests performed
 cze,20211213,tests performed
 cze,20211214,tests performed
+cze,20211215,tests performed
+cze,20211216,tests performed
 cod,20200408,samples tested
 cod,20200409,samples tested
 cod,20200410,samples tested
@@ -17422,6 +17503,7 @@ dnk,20211210,tests performed
 dnk,20211211,tests performed
 dnk,20211212,tests performed
 dnk,20211213,tests performed
+dnk,20211214,tests performed
 dom,20200318,samples tested
 dom,20200319,samples tested
 dom,20200320,samples tested
@@ -19864,6 +19946,8 @@ est,20211211,tests performed
 est,20211212,tests performed
 est,20211213,tests performed
 est,20211214,tests performed
+est,20211215,tests performed
+est,20211216,tests performed
 eth,20200313,tests performed
 eth,20200314,tests performed
 eth,20200315,tests performed
@@ -21657,6 +21741,8 @@ fin,20211210,tests performed
 fin,20211211,tests performed
 fin,20211212,tests performed
 fin,20211213,tests performed
+fin,20211214,tests performed
+fin,20211215,tests performed
 fra,20200513,people tested
 fra,20200514,people tested
 fra,20200515,people tested
@@ -22235,6 +22321,8 @@ fra,20211208,people tested
 fra,20211209,people tested
 fra,20211210,people tested
 fra,20211211,people tested
+fra,20211212,people tested
+fra,20211213,people tested
 gab,20210713,samples tested
 gab,20210714,samples tested
 gab,20210715,samples tested
@@ -22507,6 +22595,17 @@ gmb,20211129,samples tested
 gmb,20211130,samples tested
 gmb,20211201,samples tested
 gmb,20211202,samples tested
+gmb,20211203,samples tested
+gmb,20211204,samples tested
+gmb,20211205,samples tested
+gmb,20211206,samples tested
+gmb,20211207,samples tested
+gmb,20211208,samples tested
+gmb,20211209,samples tested
+gmb,20211210,samples tested
+gmb,20211211,samples tested
+gmb,20211212,samples tested
+gmb,20211213,samples tested
 geo,20210402,tests performed
 geo,20210403,tests performed
 geo,20210404,tests performed
@@ -23350,6 +23449,13 @@ deu,20211202,tests performed
 deu,20211203,tests performed
 deu,20211204,tests performed
 deu,20211205,tests performed
+deu,20211206,tests performed
+deu,20211207,tests performed
+deu,20211208,tests performed
+deu,20211209,tests performed
+deu,20211210,tests performed
+deu,20211211,tests performed
+deu,20211212,tests performed
 gha,20200317,samples tested
 gha,20200318,samples tested
 gha,20200319,samples tested
@@ -24596,6 +24702,7 @@ grc,20211212,samples tested
 grc,20211213,samples tested
 grc,20211214,samples tested
 grc,20211215,samples tested
+grc,20211216,samples tested
 gtm,20200217,people tested
 gtm,20200218,people tested
 gtm,20200219,people tested
@@ -26575,6 +26682,8 @@ hun,20211212,tests performed
 hun,20211213,tests performed
 hun,20211214,tests performed
 hun,20211215,tests performed
+hun,20211216,tests performed
+hun,20211217,tests performed
 isl,20200227,tests performed
 isl,20200228,tests performed
 isl,20200229,tests performed
@@ -27232,6 +27341,8 @@ isl,20211211,tests performed
 isl,20211212,tests performed
 isl,20211213,tests performed
 isl,20211214,tests performed
+isl,20211215,tests performed
+isl,20211216,tests performed
 ind,20200313,samples tested
 ind,20200314,samples tested
 ind,20200315,samples tested
@@ -28151,6 +28262,8 @@ idn,20211212,people tested
 idn,20211213,people tested
 idn,20211214,people tested
 idn,20211215,people tested
+idn,20211216,people tested
+idn,20211217,people tested
 irn,20200405,tests performed
 irn,20200406,tests performed
 irn,20200407,tests performed
@@ -28769,6 +28882,9 @@ irn,20211210,tests performed
 irn,20211211,tests performed
 irn,20211212,tests performed
 irn,20211213,tests performed
+irn,20211214,tests performed
+irn,20211215,tests performed
+irn,20211216,tests performed
 irq,20200407,samples tested
 irq,20200408,samples tested
 irq,20200409,samples tested
@@ -29384,6 +29500,10 @@ irq,20211209,samples tested
 irq,20211210,samples tested
 irq,20211211,samples tested
 irq,20211212,samples tested
+irq,20211213,samples tested
+irq,20211214,samples tested
+irq,20211215,samples tested
+irq,20211216,samples tested
 irl,20200318,tests performed
 irl,20200319,tests performed
 irl,20200320,tests performed
@@ -30022,6 +30142,7 @@ irl,20211212,tests performed
 irl,20211213,tests performed
 irl,20211214,tests performed
 irl,20211215,tests performed
+irl,20211216,tests performed
 isr,20200220,tests performed
 isr,20200221,tests performed
 isr,20200222,tests performed
@@ -30687,6 +30808,7 @@ isr,20211212,tests performed
 isr,20211213,tests performed
 isr,20211214,tests performed
 isr,20211215,tests performed
+isr,20211216,tests performed
 ita,20200224,tests performed
 ita,20200225,tests performed
 ita,20200226,tests performed
@@ -31348,6 +31470,7 @@ ita,20211212,tests performed
 ita,20211213,tests performed
 ita,20211214,tests performed
 ita,20211215,tests performed
+ita,20211216,tests performed
 jam,20200324,samples tested
 jam,20200325,samples tested
 jam,20200326,samples tested
@@ -31979,6 +32102,7 @@ jam,20211211,samples tested
 jam,20211212,samples tested
 jam,20211213,samples tested
 jam,20211214,samples tested
+jam,20211215,samples tested
 jpn,20200205,people tested
 jpn,20200206,people tested
 jpn,20200207,people tested
@@ -32658,6 +32782,8 @@ jpn,20211211,people tested
 jpn,20211212,people tested
 jpn,20211213,people tested
 jpn,20211214,people tested
+jpn,20211215,people tested
+jpn,20211216,people tested
 jor,20200501,tests performed
 jor,20201031,tests performed
 jor,20201101,tests performed
@@ -33030,6 +33156,10 @@ jor,20211209,tests performed
 jor,20211210,tests performed
 jor,20211211,tests performed
 jor,20211212,tests performed
+jor,20211213,tests performed
+jor,20211214,tests performed
+jor,20211215,tests performed
+jor,20211216,tests performed
 kaz,20200313,tests performed
 kaz,20200314,tests performed
 kaz,20200315,tests performed
@@ -34071,6 +34201,9 @@ owid_kos,20211209,tests performed
 owid_kos,20211210,tests performed
 owid_kos,20211211,tests performed
 owid_kos,20211212,tests performed
+owid_kos,20211213,tests performed
+owid_kos,20211214,tests performed
+owid_kos,20211215,tests performed
 kwt,20200513,tests performed
 kwt,20200514,tests performed
 kwt,20200515,tests performed
@@ -34650,6 +34783,10 @@ kwt,20211209,tests performed
 kwt,20211210,tests performed
 kwt,20211211,tests performed
 kwt,20211212,tests performed
+kwt,20211213,tests performed
+kwt,20211214,tests performed
+kwt,20211215,tests performed
+kwt,20211216,tests performed
 lao,20210519,people tested
 lao,20210520,people tested
 lao,20210521,people tested
@@ -36128,6 +36265,8 @@ lby,20211211,samples tested
 lby,20211212,samples tested
 lby,20211213,samples tested
 lby,20211214,samples tested
+lby,20211215,samples tested
+lby,20211216,samples tested
 lie,20200523,tests performed
 lie,20200524,tests performed
 lie,20200525,tests performed
@@ -36698,6 +36837,7 @@ lie,20211210,tests performed
 lie,20211211,tests performed
 lie,20211212,tests performed
 lie,20211213,tests performed
+lie,20211214,tests performed
 ltu,20200320,tests performed
 ltu,20200321,tests performed
 ltu,20200322,tests performed
@@ -37331,6 +37471,8 @@ ltu,20211209,tests performed
 ltu,20211210,tests performed
 ltu,20211211,tests performed
 ltu,20211212,tests performed
+ltu,20211213,tests performed
+ltu,20211214,tests performed
 lux,20200224,tests performed
 lux,20200225,tests performed
 lux,20200226,tests performed
@@ -37991,6 +38133,7 @@ lux,20211211,tests performed
 lux,20211212,tests performed
 lux,20211213,tests performed
 lux,20211214,tests performed
+lux,20211215,tests performed
 mdg,20200428,tests performed
 mdg,20200429,tests performed
 mdg,20200430,tests performed
@@ -39587,6 +39730,7 @@ mys,20211210,people tested
 mys,20211211,people tested
 mys,20211212,people tested
 mys,20211213,people tested
+mys,20211214,people tested
 mdv,20200316,samples tested
 mdv,20200317,samples tested
 mdv,20200318,samples tested
@@ -40224,6 +40368,10 @@ mdv,20211209,samples tested
 mdv,20211210,samples tested
 mdv,20211211,samples tested
 mdv,20211212,samples tested
+mdv,20211213,samples tested
+mdv,20211214,samples tested
+mdv,20211215,samples tested
+mdv,20211216,samples tested
 mlt,20200720,tests performed
 mlt,20200721,tests performed
 mlt,20200722,tests performed
@@ -40738,6 +40886,7 @@ mlt,20211212,tests performed
 mlt,20211213,tests performed
 mlt,20211214,tests performed
 mlt,20211215,tests performed
+mlt,20211216,tests performed
 mrt,20200401,tests performed
 mrt,20200402,tests performed
 mrt,20200403,tests performed
@@ -41784,6 +41933,8 @@ mex,20211210,people tested
 mex,20211211,people tested
 mex,20211212,people tested
 mex,20211213,people tested
+mex,20211214,people tested
+mex,20211215,people tested
 mda,20210517,tests performed
 mda,20210518,tests performed
 mda,20210519,tests performed
@@ -42317,6 +42468,9 @@ mng,20211211,samples tested
 mng,20211212,samples tested
 mng,20211213,samples tested
 mng,20211214,samples tested
+mng,20211215,samples tested
+mng,20211216,samples tested
+mng,20211217,samples tested
 mar,20200207,people tested
 mar,20200208,people tested
 mar,20200209,people tested
@@ -42993,6 +43147,8 @@ mar,20211210,people tested
 mar,20211211,people tested
 mar,20211212,people tested
 mar,20211213,people tested
+mar,20211214,people tested
+mar,20211215,people tested
 moz,20200328,units unclear
 moz,20200329,units unclear
 moz,20200330,units unclear
@@ -44725,6 +44881,10 @@ nam,20211208,samples tested
 nam,20211209,samples tested
 nam,20211210,samples tested
 nam,20211211,samples tested
+nam,20211212,samples tested
+nam,20211213,samples tested
+nam,20211214,samples tested
+nam,20211215,samples tested
 npl,20200128,tests performed
 npl,20200129,tests performed
 npl,20200130,tests performed
@@ -45411,6 +45571,10 @@ npl,20211210,tests performed
 npl,20211211,tests performed
 npl,20211212,tests performed
 npl,20211213,tests performed
+npl,20211214,tests performed
+npl,20211215,tests performed
+npl,20211216,tests performed
+npl,20211217,tests performed
 nld,20200601,tests performed
 nld,20200602,tests performed
 nld,20200603,tests performed
@@ -45972,6 +46136,7 @@ nld,20211210,tests performed
 nld,20211211,tests performed
 nld,20211212,tests performed
 nld,20211213,tests performed
+nld,20211214,tests performed
 nzl,20200301,tests performed
 nzl,20200302,tests performed
 nzl,20200303,tests performed
@@ -46626,6 +46791,9 @@ nzl,20211211,tests performed
 nzl,20211212,tests performed
 nzl,20211213,tests performed
 nzl,20211214,tests performed
+nzl,20211215,tests performed
+nzl,20211216,tests performed
+nzl,20211217,tests performed
 nga,20200408,samples tested
 nga,20200409,samples tested
 nga,20200410,samples tested
@@ -48423,6 +48591,7 @@ nor,20211210,people tested
 nor,20211211,people tested
 nor,20211212,people tested
 nor,20211213,people tested
+nor,20211214,people tested
 omn,20200604,units unclear
 omn,20200605,units unclear
 omn,20200606,units unclear
@@ -49130,6 +49299,9 @@ pak,20211211,tests performed
 pak,20211212,tests performed
 pak,20211213,tests performed
 pak,20211214,tests performed
+pak,20211215,tests performed
+pak,20211216,tests performed
+pak,20211217,tests performed
 pse,20200828,tests performed
 pse,20200829,tests performed
 pse,20200830,tests performed
@@ -49603,6 +49775,8 @@ pse,20211210,tests performed
 pse,20211211,tests performed
 pse,20211212,tests performed
 pse,20211213,tests performed
+pse,20211214,tests performed
+pse,20211215,tests performed
 pan,20200309,tests performed
 pan,20200310,tests performed
 pan,20200311,tests performed
@@ -50247,6 +50421,10 @@ pan,20211209,tests performed
 pan,20211210,tests performed
 pan,20211211,tests performed
 pan,20211212,tests performed
+pan,20211213,tests performed
+pan,20211214,tests performed
+pan,20211215,tests performed
+pan,20211216,tests performed
 png,20210221,tests performed
 png,20210222,tests performed
 png,20210223,tests performed
@@ -50950,6 +51128,10 @@ pry,20211209,tests performed
 pry,20211210,tests performed
 pry,20211211,tests performed
 pry,20211212,tests performed
+pry,20211213,tests performed
+pry,20211214,tests performed
+pry,20211215,tests performed
+pry,20211216,tests performed
 per,20200101,tests performed
 per,20200102,tests performed
 per,20200103,tests performed
@@ -52279,6 +52461,7 @@ phl,20211211,people tested
 phl,20211212,people tested
 phl,20211213,people tested
 phl,20211214,people tested
+phl,20211215,people tested
 pol,20200428,people tested
 pol,20200429,people tested
 pol,20200430,people tested
@@ -52874,6 +53057,10 @@ pol,20211210,people tested
 pol,20211211,people tested
 pol,20211212,people tested
 pol,20211213,people tested
+pol,20211214,people tested
+pol,20211215,people tested
+pol,20211216,people tested
+pol,20211217,people tested
 prt,20200301,tests performed
 prt,20200302,tests performed
 prt,20200303,tests performed
@@ -53527,6 +53714,8 @@ prt,20211210,tests performed
 prt,20211211,tests performed
 prt,20211212,tests performed
 prt,20211213,tests performed
+prt,20211214,tests performed
+prt,20211215,tests performed
 qat,20200312,people tested
 qat,20200313,people tested
 qat,20200314,people tested
@@ -54764,6 +54953,10 @@ rou,20211210,tests performed
 rou,20211211,tests performed
 rou,20211212,tests performed
 rou,20211213,tests performed
+rou,20211214,tests performed
+rou,20211215,tests performed
+rou,20211216,tests performed
+rou,20211217,tests performed
 rus,20200304,tests performed
 rus,20200305,tests performed
 rus,20200306,tests performed
@@ -55413,6 +55606,10 @@ rus,20211209,tests performed
 rus,20211210,tests performed
 rus,20211211,tests performed
 rus,20211212,tests performed
+rus,20211213,tests performed
+rus,20211214,tests performed
+rus,20211215,tests performed
+rus,20211216,tests performed
 rwa,20200407,samples tested
 rwa,20200408,samples tested
 rwa,20200409,samples tested
@@ -56031,6 +56228,8 @@ rwa,20211212,samples tested
 rwa,20211213,samples tested
 rwa,20211214,samples tested
 rwa,20211215,samples tested
+rwa,20211216,samples tested
+rwa,20211217,samples tested
 kna,20210712,people tested
 kna,20210713,people tested
 kna,20210714,people tested
@@ -56188,6 +56387,8 @@ kna,20211212,people tested
 kna,20211213,people tested
 kna,20211214,people tested
 kna,20211215,people tested
+kna,20211216,people tested
+kna,20211217,people tested
 vct,20210930,tests performed
 vct,20211001,tests performed
 vct,20211002,tests performed
@@ -56260,6 +56461,12 @@ vct,20211207,tests performed
 vct,20211208,tests performed
 vct,20211209,tests performed
 vct,20211210,tests performed
+vct,20211211,tests performed
+vct,20211212,tests performed
+vct,20211213,tests performed
+vct,20211214,tests performed
+vct,20211215,tests performed
+vct,20211216,tests performed
 sau,20200302,tests performed
 sau,20200303,tests performed
 sau,20200304,tests performed
@@ -56913,6 +57120,7 @@ sau,20211211,tests performed
 sau,20211212,tests performed
 sau,20211213,tests performed
 sau,20211214,tests performed
+sau,20211215,tests performed
 sen,20200228,tests performed
 sen,20200229,tests performed
 sen,20200301,tests performed
@@ -57570,6 +57778,8 @@ sen,20211212,tests performed
 sen,20211213,tests performed
 sen,20211214,tests performed
 sen,20211215,tests performed
+sen,20211216,tests performed
+sen,20211217,tests performed
 srb,20200226,people tested
 srb,20200227,people tested
 srb,20200228,people tested
@@ -58229,6 +58439,7 @@ srb,20211212,people tested
 srb,20211213,people tested
 srb,20211214,people tested
 srb,20211215,people tested
+srb,20211216,people tested
 sgp,20200407,samples tested
 sgp,20200408,samples tested
 sgp,20200409,samples tested
@@ -59458,6 +59669,8 @@ svk,20211210,tests performed
 svk,20211211,tests performed
 svk,20211212,tests performed
 svk,20211213,tests performed
+svk,20211214,tests performed
+svk,20211215,tests performed
 svn,20200202,tests performed
 svn,20200203,tests performed
 svn,20200204,tests performed
@@ -60140,6 +60353,8 @@ svn,20211211,tests performed
 svn,20211212,tests performed
 svn,20211213,tests performed
 svn,20211214,tests performed
+svn,20211215,tests performed
+svn,20211216,tests performed
 zaf,20200207,people tested
 zaf,20200208,people tested
 zaf,20200209,people tested
@@ -60817,6 +61032,8 @@ zaf,20211211,people tested
 zaf,20211212,people tested
 zaf,20211213,people tested
 zaf,20211214,people tested
+zaf,20211215,people tested
+zaf,20211216,people tested
 kor,20200121,people tested
 kor,20200122,people tested
 kor,20200123,people tested
@@ -63011,6 +63228,8 @@ lka,20211212,tests performed
 lka,20211213,tests performed
 lka,20211214,tests performed
 lka,20211215,tests performed
+lka,20211216,tests performed
+lka,20211217,tests performed
 swe,20200713,tests performed
 swe,20200714,tests performed
 swe,20200715,tests performed
@@ -63522,6 +63741,13 @@ swe,20211202,tests performed
 swe,20211203,tests performed
 swe,20211204,tests performed
 swe,20211205,tests performed
+swe,20211206,tests performed
+swe,20211207,tests performed
+swe,20211208,tests performed
+swe,20211209,tests performed
+swe,20211210,tests performed
+swe,20211211,tests performed
+swe,20211212,tests performed
 che,20200523,tests performed
 che,20200524,tests performed
 che,20200525,tests performed
@@ -64093,6 +64319,7 @@ che,20211211,tests performed
 che,20211212,tests performed
 che,20211213,tests performed
 che,20211214,tests performed
+che,20211215,tests performed
 twn,20200116,people tested
 twn,20200117,people tested
 twn,20200118,people tested
@@ -64793,6 +65020,7 @@ twn,20211212,people tested
 twn,20211213,people tested
 twn,20211214,people tested
 twn,20211215,people tested
+twn,20211216,people tested
 tha,20200104,tests performed
 tha,20200105,tests performed
 tha,20200106,tests performed
@@ -65493,6 +65721,14 @@ tha,20211130,tests performed
 tha,20211201,tests performed
 tha,20211202,tests performed
 tha,20211203,tests performed
+tha,20211204,tests performed
+tha,20211205,tests performed
+tha,20211206,tests performed
+tha,20211207,tests performed
+tha,20211208,tests performed
+tha,20211209,tests performed
+tha,20211210,tests performed
+tha,20211211,tests performed
 tls,20210713,tests performed
 tls,20210714,tests performed
 tls,20210715,tests performed
@@ -66242,6 +66478,9 @@ tgo,20211209,tests performed
 tgo,20211210,tests performed
 tgo,20211211,tests performed
 tgo,20211212,tests performed
+tgo,20211213,tests performed
+tgo,20211214,tests performed
+tgo,20211215,tests performed
 tto,20200505,people tested
 tto,20200506,people tested
 tto,20200507,people tested
@@ -67632,6 +67871,9 @@ tur,20211210,tests performed
 tur,20211211,tests performed
 tur,20211212,tests performed
 tur,20211213,tests performed
+tur,20211214,tests performed
+tur,20211215,tests performed
+tur,20211216,tests performed
 uga,20200401,samples tested
 uga,20200402,samples tested
 uga,20200403,samples tested
@@ -68176,6 +68418,10 @@ uga,20211208,samples tested
 uga,20211209,samples tested
 uga,20211210,samples tested
 uga,20211211,samples tested
+uga,20211212,samples tested
+uga,20211213,samples tested
+uga,20211214,samples tested
+uga,20211215,samples tested
 ukr,20200409,tests performed
 ukr,20200410,tests performed
 ukr,20200411,tests performed
@@ -68791,6 +69037,9 @@ ukr,20211211,tests performed
 ukr,20211212,tests performed
 ukr,20211213,tests performed
 ukr,20211214,tests performed
+ukr,20211215,tests performed
+ukr,20211216,tests performed
+ukr,20211217,tests performed
 are,20200129,tests performed
 are,20200130,tests performed
 are,20200131,tests performed
@@ -70101,6 +70350,7 @@ gbr,20211211,tests performed
 gbr,20211212,tests performed
 gbr,20211213,tests performed
 gbr,20211214,tests performed
+gbr,20211215,tests performed
 usa,20200301,tests performed
 usa,20200302,tests performed
 usa,20200303,tests performed
@@ -70751,6 +71001,9 @@ usa,20211207,tests performed
 usa,20211208,tests performed
 usa,20211209,tests performed
 usa,20211210,tests performed
+usa,20211211,tests performed
+usa,20211212,tests performed
+usa,20211213,tests performed
 ury,20200322,people tested
 ury,20200323,people tested
 ury,20200324,people tested
@@ -71384,6 +71637,8 @@ ury,20211211,people tested
 ury,20211212,people tested
 ury,20211213,people tested
 ury,20211214,people tested
+ury,20211215,people tested
+ury,20211216,people tested
 vnm,20200213,samples tested
 vnm,20200214,samples tested
 vnm,20200215,samples tested
@@ -71793,6 +72048,12 @@ vnm,20211207,samples tested
 vnm,20211208,samples tested
 vnm,20211209,samples tested
 vnm,20211210,samples tested
+vnm,20211211,samples tested
+vnm,20211212,samples tested
+vnm,20211213,samples tested
+vnm,20211214,samples tested
+vnm,20211215,samples tested
+vnm,20211216,samples tested
 zmb,20200319,tests performed
 zmb,20200320,tests performed
 zmb,20200321,tests performed
@@ -73016,3 +73277,7 @@ zwe,20211209,tests performed
 zwe,20211210,tests performed
 zwe,20211211,tests performed
 zwe,20211212,tests performed
+zwe,20211213,tests performed
+zwe,20211214,tests performed
+zwe,20211215,tests performed
+zwe,20211216,tests performed
