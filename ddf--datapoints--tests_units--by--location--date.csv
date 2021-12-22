@@ -1548,6 +1548,7 @@ arg,20211211,tests performed
 arg,20211212,tests performed
 arg,20211213,tests performed
 arg,20211214,tests performed
+arg,20211215,tests performed
 arm,20200309,tests performed
 arm,20200310,tests performed
 arm,20200311,tests performed
@@ -2838,6 +2839,7 @@ aus,20211216,tests performed
 aus,20211217,tests performed
 aus,20211218,tests performed
 aus,20211219,tests performed
+aus,20211220,tests performed
 aut,20200401,tests performed
 aut,20200402,tests performed
 aut,20200403,tests performed
@@ -11604,6 +11606,9 @@ cpv,20211212,tests performed
 cpv,20211213,tests performed
 cpv,20211214,tests performed
 cpv,20211215,tests performed
+cpv,20211216,tests performed
+cpv,20211217,tests performed
+cpv,20211218,tests performed
 chl,20200325,tests performed
 chl,20200326,tests performed
 chl,20200327,tests performed
@@ -28999,6 +29004,7 @@ irn,20211216,tests performed
 irn,20211217,tests performed
 irn,20211218,tests performed
 irn,20211219,tests performed
+irn,20211220,tests performed
 irq,20200407,samples tested
 irq,20200408,samples tested
 irq,20200409,samples tested
@@ -36412,6 +36418,7 @@ lby,20211215,samples tested
 lby,20211216,samples tested
 lby,20211217,samples tested
 lby,20211218,samples tested
+lby,20211219,samples tested
 lie,20200523,tests performed
 lie,20200524,tests performed
 lie,20200525,tests performed
@@ -42636,6 +42643,7 @@ mng,20211217,samples tested
 mng,20211218,samples tested
 mng,20211219,samples tested
 mng,20211220,samples tested
+mng,20211221,samples tested
 mar,20200207,people tested
 mar,20200208,people tested
 mar,20200209,people tested
@@ -46975,6 +46983,7 @@ nzl,20211217,tests performed
 nzl,20211218,tests performed
 nzl,20211219,tests performed
 nzl,20211220,tests performed
+nzl,20211221,tests performed
 nga,20200408,samples tested
 nga,20200409,samples tested
 nga,20200410,samples tested
@@ -49509,6 +49518,7 @@ pak,20211217,tests performed
 pak,20211218,tests performed
 pak,20211219,tests performed
 pak,20211220,tests performed
+pak,20211221,tests performed
 pse,20200828,tests performed
 pse,20200829,tests performed
 pse,20200830,tests performed
@@ -56466,6 +56476,7 @@ rwa,20211217,samples tested
 rwa,20211218,samples tested
 rwa,20211219,samples tested
 rwa,20211220,samples tested
+rwa,20211221,samples tested
 kna,20210712,people tested
 kna,20210713,people tested
 kna,20210714,people tested
@@ -69339,6 +69350,7 @@ ukr,20211217,tests performed
 ukr,20211218,tests performed
 ukr,20211219,tests performed
 ukr,20211220,tests performed
+ukr,20211221,tests performed
 are,20200129,tests performed
 are,20200130,tests performed
 are,20200131,tests performed
