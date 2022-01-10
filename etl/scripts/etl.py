@@ -7,6 +7,10 @@ source_file = '../source/owid-covid-data.csv'
 codebook_file = '../source/owid-covid-codebook.csv'
 
 
+def concept_id_to_name(s):
+    return s.replace('_', ' ').title()
+
+
 def main():
     codebook = pd.read_csv('../source/owid-covid-codebook.csv')
     df = pd.read_csv(source_file)
@@ -37,7 +41,7 @@ def main():
     concepts['concept_type'] = 'measure'
     concepts.loc['location', 'concept_type'] = 'entity_domain'
     concepts.loc['date', 'concept_type'] = 'time'
-    concepts['name'] = concepts.index
+    concepts['name'] = concepts.index.map(concept_id_to_name)
     concepts.loc['name', ['name', 'concept_type']] = ['Name', 'string']
     concepts.loc['category', ['name', 'concept_type']] = ['Category', 'string']
     concepts.loc['description', ['name', 'concept_type']] = ['Description', 'string']
