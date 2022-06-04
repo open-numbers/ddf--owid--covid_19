@@ -20,10 +20,10 @@ icu_patients,National government reports and European CDC,Hospital & ICU,Number 
 icu_patients_per_million,National government reports and European CDC,Hospital & ICU,"Number of COVID-19 patients in intensive care units (ICUs) on a given day per 1,000,000 people",measure,Icu Patients Per Million
 hosp_patients,National government reports and European CDC,Hospital & ICU,Number of COVID-19 patients in hospital on a given day,measure,Hosp Patients
 hosp_patients_per_million,National government reports and European CDC,Hospital & ICU,"Number of COVID-19 patients in hospital on a given day per 1,000,000 people",measure,Hosp Patients Per Million
-weekly_icu_admissions,National government reports and European CDC,Hospital & ICU,Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week,measure,Weekly Icu Admissions
-weekly_icu_admissions_per_million,National government reports and European CDC,Hospital & ICU,"Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week per 1,000,000 people",measure,Weekly Icu Admissions Per Million
-weekly_hosp_admissions,National government reports and European CDC,Hospital & ICU,Number of COVID-19 patients newly admitted to hospitals in a given week,measure,Weekly Hosp Admissions
-weekly_hosp_admissions_per_million,National government reports and European CDC,Hospital & ICU,"Number of COVID-19 patients newly admitted to hospitals in a given week per 1,000,000 people",measure,Weekly Hosp Admissions Per Million
+weekly_icu_admissions,National government reports and European CDC,Hospital & ICU,Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week (reporting date and the preceeding 6 days),measure,Weekly Icu Admissions
+weekly_icu_admissions_per_million,National government reports and European CDC,Hospital & ICU,"Number of COVID-19 patients newly admitted to intensive care units (ICUs) in a given week per 1,000,000 people (reporting date and the preceeding 6 days)",measure,Weekly Icu Admissions Per Million
+weekly_hosp_admissions,National government reports and European CDC,Hospital & ICU,Number of COVID-19 patients newly admitted to hospitals in a given week (reporting date and the preceeding 6 days),measure,Weekly Hosp Admissions
+weekly_hosp_admissions_per_million,National government reports and European CDC,Hospital & ICU,"Number of COVID-19 patients newly admitted to hospitals in a given week per 1,000,000 people (reporting date and the preceeding 6 days)",measure,Weekly Hosp Admissions Per Million
 total_tests,National government reports,Tests & positivity,Total tests for COVID-19,measure,Total Tests
 new_tests,National government reports,Tests & positivity,New tests for COVID-19 (only calculated for consecutive days),measure,New Tests
 total_tests_per_thousand,National government reports,Tests & positivity,"Total tests for COVID-19 per 1,000 people",measure,Total Tests Per Thousand
