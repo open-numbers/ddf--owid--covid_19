@@ -1,7 +1,7 @@
 concept,source,category,description,concept_type,name
-iso_code,International Organization for Standardization,Others,ISO 3166-1 alpha-3 – three-letter country codes,string,Iso Code
+iso_code,International Organization for Standardization,Others,ISO 3166-1 alpha-3 – three-letter country codes. Note that OWID-defined regions (e.g. continents like 'Europe') contain prefix 'OWID_'.,string,Iso Code
 continent,Our World in Data,Others,Continent of the geographical location,string,Continent
-location,Our World in Data,Others,Geographical location,entity_domain,Location
+location,Our World in Data,Others,"Geographical location. Location 'International' considers special regions (""Diamond Princess"" and ""MS Zaandam"" cruises). ",entity_domain,Location
 date,Our World in Data,Others,Date of observation,time,Date
 total_cases,COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University,Confirmed cases,"Total confirmed cases of COVID-19. Counts can include probable cases, where reported.",measure,Total Cases
 new_cases,COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University,Confirmed cases,"New confirmed cases of COVID-19. Counts can include probable cases, where reported. In rare cases where our source reports a negative daily change due to a data correction, we set this metric to NA.",measure,New Cases
@@ -32,7 +32,7 @@ new_tests_smoothed,National government reports,Tests & positivity,"New tests for
 new_tests_smoothed_per_thousand,National government reports,Tests & positivity,"New tests for COVID-19 (7-day smoothed) per 1,000 people",measure,New Tests Smoothed Per Thousand
 positive_rate,National government reports,Tests & positivity,"The share of COVID-19 tests that are positive, given as a rolling 7-day average (this is the inverse of tests_per_case)",measure,Positive Rate
 tests_per_case,National government reports,Tests & positivity,"Tests conducted per new confirmed case of COVID-19, given as a rolling 7-day average (this is the inverse of positive_rate)",measure,Tests Per Case
-tests_units,National government reports,Tests & positivity,Units used by the location to report its testing data,measure,Tests Units
+tests_units,National government reports,Tests & positivity,"Units used by the location to report its testing data. A country file can't contain  mixed units. Valid units are 'people tested' (number of people tested), 'tests performed' (number of tests performed. a single person can be tested more than once in a given day) and 'samples tested' (number of samples tested. In some cases, more than one sample may be required to perform a given test.)",measure,Tests Units
 total_vaccinations,National government reports,Vaccinations,Total number of COVID-19 vaccination doses administered,measure,Total Vaccinations
 people_vaccinated,National government reports,Vaccinations,Total number of people who received at least one vaccine dose,measure,People Vaccinated
 people_fully_vaccinated,National government reports,Vaccinations,Total number of people who received all doses prescribed by the initial vaccination protocol,measure,People Fully Vaccinated
