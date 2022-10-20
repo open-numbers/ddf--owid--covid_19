@@ -158,6 +158,7 @@ omn,OMN,Asia,Oman
 owid_afr,OWID_AFR,,Africa
 owid_asi,OWID_ASI,,Asia
 owid_cyn,OWID_CYN,Asia,Northern Cyprus
+owid_eng,OWID_ENG,Europe,England
 owid_eun,OWID_EUN,,European Union
 owid_eur,OWID_EUR,,Europe
 owid_hic,OWID_HIC,,High income
@@ -166,9 +167,12 @@ owid_kos,OWID_KOS,Europe,Kosovo
 owid_lic,OWID_LIC,,Low income
 owid_lmc,OWID_LMC,,Lower middle income
 owid_nam,OWID_NAM,,North America
+owid_nir,OWID_NIR,Europe,Northern Ireland
 owid_oce,OWID_OCE,,Oceania
 owid_sam,OWID_SAM,,South America
+owid_sct,OWID_SCT,Europe,Scotland
 owid_umc,OWID_UMC,,Upper middle income
+owid_wls,OWID_WLS,Europe,Wales
 owid_wrl,OWID_WRL,,World
 pak,PAK,Asia,Pakistan
 pan,PAN,North America,Panama
