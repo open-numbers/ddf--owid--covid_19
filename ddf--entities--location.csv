@@ -8,6 +8,7 @@ and,AND,Europe,Andorra
 are,ARE,Asia,United Arab Emirates
 arg,ARG,South America,Argentina
 arm,ARM,Asia,Armenia
+asm,ASM,Oceania,American Samoa
 atg,ATG,North America,Antigua and Barbuda
 aus,AUS,Oceania,Australia
 aut,AUT,Europe,Austria
@@ -22,6 +23,7 @@ bgr,BGR,Europe,Bulgaria
 bhr,BHR,Asia,Bahrain
 bhs,BHS,North America,Bahamas
 bih,BIH,Europe,Bosnia and Herzegovina
+blm,BLM,North America,Saint Barthelemy
 blr,BLR,Europe,Belarus
 blz,BLZ,North America,Belize
 bmu,BMU,North America,Bermuda
@@ -76,6 +78,7 @@ ggy,GGY,Europe,Guernsey
 gha,GHA,Africa,Ghana
 gib,GIB,Europe,Gibraltar
 gin,GIN,Africa,Guinea
+glp,GLP,North America,Guadeloupe
 gmb,GMB,Africa,Gambia
 gnb,GNB,Africa,Guinea-Bissau
 gnq,GNQ,Africa,Equatorial Guinea
@@ -83,6 +86,7 @@ grc,GRC,Europe,Greece
 grd,GRD,North America,Grenada
 grl,GRL,North America,Greenland
 gtm,GTM,North America,Guatemala
+guf,GUF,South America,French Guiana
 gum,GUM,Oceania,Guam
 guy,GUY,South America,Guyana
 hkg,HKG,Asia,Hong Kong
@@ -123,6 +127,7 @@ ltu,LTU,Europe,Lithuania
 lux,LUX,Europe,Luxembourg
 lva,LVA,Europe,Latvia
 mac,MAC,Asia,Macao
+maf,MAF,North America,Saint Martin (French part)
 mar,MAR,Africa,Morocco
 mco,MCO,Europe,Monaco
 mda,MDA,Europe,Moldova
@@ -140,9 +145,11 @@ mnp,MNP,Oceania,Northern Mariana Islands
 moz,MOZ,Africa,Mozambique
 mrt,MRT,Africa,Mauritania
 msr,MSR,North America,Montserrat
+mtq,MTQ,North America,Martinique
 mus,MUS,Africa,Mauritius
 mwi,MWI,Africa,Malawi
 mys,MYS,Asia,Malaysia
+myt,MYT,Africa,Mayotte
 nam,NAM,Africa,Namibia
 ncl,NCL,Oceania,New Caledonia
 ner,NER,Africa,Niger
@@ -162,7 +169,6 @@ owid_eng,OWID_ENG,Europe,England
 owid_eun,OWID_EUN,,European Union
 owid_eur,OWID_EUR,,Europe
 owid_hic,OWID_HIC,,High income
-owid_int,OWID_INT,,International
 owid_kos,OWID_KOS,Europe,Kosovo
 owid_lic,OWID_LIC,,Low income
 owid_lmc,OWID_LMC,,Lower middle income
@@ -189,6 +195,7 @@ pry,PRY,South America,Paraguay
 pse,PSE,Asia,Palestine
 pyf,PYF,Oceania,French Polynesia
 qat,QAT,Asia,Qatar
+reu,REU,Africa,Reunion
 rou,ROU,Europe,Romania
 rus,RUS,Europe,Russia
 rwa,RWA,Africa,Rwanda
